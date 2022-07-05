@@ -54,11 +54,11 @@ body{
     background: url(images/bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 660px;
 }
 
 .about img {
-    width: 89%;
+    width: 90%;
     float: right;
 }
 
