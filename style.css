@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .banner-flex {
@@ -9,9 +9,42 @@ body{
 
 .half-width{
     width: 50%;
-    margin-left: 5%;
+    margin: 3% 0 0 5%;
+}
+
+.half-width h1{
+    font-size: 50px;
+    color: #575757;
+    line-height: 70px;
+    margin-top: 70px;
+}
+
+.half-width p {
+    font-size: 20px;
+    padding: 0 50px 0 0;
+    line-height: 30px;
+    color: #575757;
+    margin: 0 0 50px 0;
+}
+
+.half-width a {
+    text-decoration: none;
+    background: linear-gradient(90deg,#11b2fb, #016be4);
+    font-weight: 700;
+    color: white;
+    padding: 12px 25px 12px 25px;
+    border-radius: 50px;
+    transition: .2s;
+}
+
+.half-width a:hover{
+    background: linear-gradient(90deg,#016be4, #11b2fb);
 }
 
 .half-width img{
     width: 90%;
 }
+.half-width span {
+    color: #11b2fb;
+}
+
