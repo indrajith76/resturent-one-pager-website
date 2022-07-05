@@ -47,4 +47,32 @@ body{
 .half-width span {
     color: #11b2fb;
 }
+.top-banner {
+    margin-bottom: 65px;
+}
+.about {
+    background: url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.about img {
+    width: 89%;
+    float: right;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #575757;
+    margin-top: 120px;
+}
+
+.about p{
+    width: 500px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #575757;
+    text-align: justify;
+}
 
