@@ -44,11 +44,14 @@ body{
 .half-width img{
     width: 90%;
 }
-.half-width span {
+
+
+
+span {
     color: #11b2fb;
 }
 .top-banner {
-    margin-bottom: 65px;
+    margin-bottom: 66px;
 }
 .about {
     background: url(images/bg-img.jpg);
@@ -58,8 +61,9 @@ body{
 }
 
 .about img {
-    width: 90%;
+    width: 100% !important;
     float: right;
+    margin-top: 13px;
 }
 
 .about h2 {
@@ -76,3 +80,91 @@ body{
     text-align: justify;
 }
 
+.recipie-item {
+    margin: 0 100px 0 0;
+}
+
+.recipie-text {
+    text-align: center;
+}
+.my-recipies {
+    margin-bottom: 100px;
+}
+
+.my-recipies h1 {
+    font-size: 40px;
+    color: #575757;
+    margin: 70px 0 0 0;
+}
+.recipie-text p {
+    color: #575757;
+    padding-left: 355px;
+    padding-right: 355px;
+    margin: 25px 0 0 0;
+}
+
+.card {
+    width: 100%;
+    margin: 0 60px 0 0;
+    padding: 20px;
+    box-shadow: 0px 5px 20px gray;
+    border-radius: 50px;
+}
+
+.card img {
+    width: 100%;
+    height: 355px;
+}
+
+.card h4 {
+    font-size: 25px;
+    margin: 15px 0 10px 0;
+    color: #575757;
+}
+
+.card p {
+    font-size: 18px;
+    color: #575757;
+}
+
+.followers {
+    margin: 0 5% 5% 5%;
+    text-align: center;
+}
+
+.follower-item {
+    box-shadow: 0px 5px 20px gray;
+    border-radius: 20px;
+    padding: 20px 0 50px 0;
+}
+
+.follower-item div {
+    width: 33.3%;
+}
+
+.follower-item h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #575757;
+}
+
+footer {
+    text-align: center;
+    font-weight: 600;
+    background: rgb(40, 48, 51);
+    padding: 20px 0 0 0;
+}
+
+footer p {
+    color: #6abadf;
+}
+
+hr{
+    border: 1px solid #29465e;
+    margin: 50px 0 10px 0;
+}
+
+footer small {
+    color: #6abadf;
+    margin: 0 0 10px 0;
+}
