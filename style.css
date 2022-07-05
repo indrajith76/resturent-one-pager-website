@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-flex {
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.half-width img{
+    width: 90%;
+}
